@@ -1,0 +1,75 @@
+body {
+  background-color: #3e454c;
+  color: #5e9f00;
+}
+
+header {
+  background-color: #3e454c;
+}
+
+main, section {
+  background-color: #3e454c;
+  margin-top: 20px;
+}
+
+article.zelfhypnose {
+  display: block;
+  border: 1px solid #5e9f00;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  margin-top: 20px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 1% 1% 25px;
+  
+}
+
+article p::after {
+  content: unset;
+}
+
+h1 {
+  color: #5e9f00;
+}
+
+.copyright {
+  color: #5e9f00;
+}
+
+h2 {
+  letter-spacing: 2px;
+  color: #5e9f00;
+}
+
+button {
+  background-color: #3e454c;
+  border-color: #5e9f00;
+  color: #5e9f00;
+}
+
+button:hover {
+  background-color: #5e9f00;
+  border-color: #5e9f00;
+  color: honeydew;
+}
+
+button.thispage {
+  background-color: #5e9f00;
+  border-color: #5e9f00;
+  color: honeydew;
+}
+
+table.nav {
+  border-color: #5e9f00;
+}
+
+img.zh {
+  float: unset;
+  height: 400px;
+  width: auto;
+  text-align: center;
+  margin-left: 10px;
+}
+

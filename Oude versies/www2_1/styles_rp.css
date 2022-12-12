@@ -1,0 +1,113 @@
+body {
+  background-color: #fff;
+  color: #3e454c;
+}
+
+header {
+  background-color: #fff;
+  color: #3e454c;
+}
+
+main, section {
+  background-color: #f5faf5;
+  padding-left: 3px;
+}
+
+h1 {
+  color: #5e9f00;
+}
+
+h2, h3, .copyright {
+  color: inherit;
+}
+
+main h2 {
+  font-weight: 600;
+  line-height: 2px;
+}
+
+#titel {
+  text-align: center;
+  line-height: 35px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+hr {
+  margin-left: 7px;
+  border-top: 1px solid #5e9f00;
+  border-bottom: 1px solid #5e9f00;
+  background-color: #5e9f00;
+  clear: both;
+}
+
+article {
+  display: inline-block;
+  width: 46.87%;
+  height: 280px;
+  font-size: 14px;
+  border: 1px solid #5e9f00;
+  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 7px;
+  margin-left: 7px;
+}
+
+.links {
+  float: left;
+}
+
+.breed {
+  width: auto;
+  height: 200px;
+}
+
+article > a {
+  all: unset;
+  cursor: pointer;
+}
+
+article h2 {
+  color: #5e9f00;
+}
+
+article p {
+  font-size: 14px;
+  /*cursor: pointer;*/
+}
+
+article::after {
+  font-weight: 600;
+  color: #5e9f00;
+  content: "Lees meer...";
+}
+
+article img {
+  width: 150px;
+  float: left;
+  padding: 7px;
+}
+
+figure {
+  margin: 0;
+}
+
+button {
+  background-color: #f5faf5;
+  border-color: #5e9f00;
+  color: #5e9f00;
+}
+
+button:hover {
+  background-color: #5e9f00;
+  border-color: #5e9f00;
+  color: #f9f3ea;
+}
+
+button.thispage {
+  background-color: #5e9f00;
+  border-color: #5e9f00;
+  color: #f9f3ea;
+}

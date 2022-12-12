@@ -1,0 +1,174 @@
+html {
+  font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #faebd7;
+}
+
+header {
+  /*position: fixed;*/
+  background-color: #faebd7;
+  width: 700px;
+  /*top: 0;*/
+}
+
+header.h1 {
+  padding-top: 10px;
+}
+
+main {
+  background-color: #f9f3ea;
+  position: relative;
+}
+
+aside {
+  position: fixed;
+  top: 10px;
+  left: 700px;
+}
+
+nav {
+  width: 210px;
+}
+
+section {
+  background-color: #f9f3ea;
+  width: 700px;
+}
+
+h1 {
+  color: #f04c25;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #009cab;
+  font-weight: normal;
+}
+
+h4 {
+  line-height: 16px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #111111;
+  font-weight: 300;
+  width: 960px;
+  text-indent: 10px;
+}
+
+p.copyright {
+  font-size: 10px;
+  color: #009cab;
+}
+
+button {
+  padding: 5px;
+  font-size: 16px;
+  background-color: #f9f3ea;
+  color: #009cab;
+  border-color: #009cab;
+  border-radius: 12px;
+}
+
+table.section {
+  width: 690px;
+}
+
+caption {
+  color: #f04c25;
+}
+
+table.talen {
+  border-collapse: collapse;
+  border: thin solid chocolate;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td.talen {
+  color: #f04c25;
+  padding: 7px;
+  border: thin solid chocolate;
+  text-align: center;
+}
+
+th.talen {
+  color: #f04c25;
+  padding: 7px;
+  border: thin solid chocolate;
+  text-align: right;
+}
+
+.padleft20 {
+  padding-left: 20px;
+}
+
+.padleft40 {
+  padding-left: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+td.foto {
+  padding-left: 30px;
+}
+
+td.titel {
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+  font-weight: 600;
+}
+
+td.lijn ul.lijn {
+  font-size: 14px;
+  line-height: 16px;
+  color: #111111;
+  font-weight: 300;
+}
+
+td.kol1 {
+  width: 60px;
+}
+
+td.top {
+  vertical-align: top;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+li.header {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+figure.index {
+  float: left;
+  margin: 0 50px 0 30px;
+}
+
+figure.homeTop {
+  margin-left: 135px;
+  margin-bottom: 70px;
+}
+
+figure.cv {
+  float: right;
+  margin: 0 50px 0 30px;
+}
